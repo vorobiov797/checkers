@@ -1,0 +1,83 @@
+
+
+.checkers{
+	max-width: 750px;
+	position: relative;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 2%;
+	margin-bottom: 2%;
+	border: 1px solid blue;
+}
+.checkers:before{
+	display:block;
+	padding-top: 100%;
+	content: " ";
+
+}
+.board {
+	position: absolute;
+	width: 100%;
+	height: 12.5%;
+
+}
+.line1 {
+	top: 0;
+
+}
+.line2 {
+	top: 12.5%;
+}
+.line3{
+	top: 25%;
+}
+.line4 {
+	top: 37.5%;
+}
+.line5 {
+	top: 50%;
+}
+.line6 {
+	top: 62.5%;}
+	.line7 {
+		top: 75%;
+	}
+	.line8 {
+		top: 87.5%;
+	}
+	.check {
+		width: 12.5%;
+		height: 100%;
+		position: absolute;
+		top: 0;
+		width: 12.5%;
+		height: 100%;
+	}
+	.box1 {
+		left: 0;
+	}
+	.box2 {
+		left: 12.5%;
+		}.box3 {
+			left: 25%;
+			}.box4 {
+				left: 37.5%;
+				}.box5 {
+					left: 50%;
+					}.box6 {
+						left: 62.5%;
+						}.box7 {
+							left: 75%;
+							}.box8 {
+								left: 87.5%;
+							}
+							.line1 .check:nth-child(odd),.line2 .check:nth-child(even), .line3 .check:nth-child(odd), .line4 .check:nth-child(even),.line5 .check:nth-child(odd), .line6 .check:nth-child(even), .line7 .check:nth-child(odd), .line8 .check:nth-child(even) {
+								background: black;
+							}
+.check:before
+{
+	content: " ";
+	width:60%;
+	border-radius: 50%;
+	background: red;
+}
